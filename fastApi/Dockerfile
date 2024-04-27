@@ -9,9 +9,6 @@ WORKDIR /code/
 
 # Copy the requirements.txt file into the container at /code/requirements.txt
 COPY ./requirements.txt /code/requirements.txt
- 
-# Install the required Python packages
-RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 # Copy the contents of the copywritingAgent directory into the container at /code/copywritingAgent
 COPY ./copywritingAgent /code/copywritingAgent
