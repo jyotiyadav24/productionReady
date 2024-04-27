@@ -69,7 +69,7 @@ This API provides endpoints for interacting with a copywriting agent. It allows 
   - `goal`: str - The goal or purpose for generating the menu item copy.
 - **Response:**
   - Returns the generated copy for the menu item.
- ![Alt text](<images/>)
+ ![Alt text](<images/menu.png>)
     
 
 #### Process Social Media
@@ -81,7 +81,7 @@ This API provides endpoints for interacting with a copywriting agent. It allows 
   - `image`: file - Optional. Image file to be included in the social media post.
 - **Response:**
   - Returns the generated copy for the social media post.
- ![Alt text](<images/>)
+ ![Alt text](<images/social.png>)
 
 
 #### Process Advertising
@@ -93,7 +93,7 @@ This API provides endpoints for interacting with a copywriting agent. It allows 
   - `interest`: str - The target interest or audience for the advertising content.
 - **Response:**
   - Returns the generated copy for the advertising content.
- ![Alt text](<images/>)
+ ![Alt text](<images/advertising.png>)
 
 
 #### Process Newsletter
@@ -104,7 +104,7 @@ This API provides endpoints for interacting with a copywriting agent. It allows 
   - `goal`: str - The goal or purpose for generating the newsletter content.
 - **Response:**
   - Returns the generated copy for the newsletter content.
- ![Alt text](<images/>)
+ ![Alt text](<images/newsletter.png>)
 
 
 #### Error Handling
