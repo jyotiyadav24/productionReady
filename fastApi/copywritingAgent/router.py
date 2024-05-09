@@ -40,11 +40,6 @@ def image_to_prompt(image_path):
     return text_parts
 
 
-llm = ChatGroq(temperature=0.1,
-                   groq_api_key=groq_api,
-                   model_name="mixtral-8x7b-32768",
-                   max_tokens=32000)
-
 def initialize_zero_shot_agent(prompt,temp,max_tokens,top_p,frequency_penalty,presence_penalty):
     llm = ChatGroq(temperature=temp,
                    groq_api_key=groq_api,
