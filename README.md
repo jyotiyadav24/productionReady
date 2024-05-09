@@ -33,7 +33,7 @@ This API provides endpoints for interacting with a copywriting agent. It allows 
 2. **Ensure Python and Docker Installed:**
    - Ensure that both Python and Docker are installed on your machine.
 
-3. **Navigate to the ETL_pipeline folder:**
+3. **Navigate to the fastApi folder:**
    - Open a terminal and navigate to the fastApi folder:
      ```bash
      cd fastApi
